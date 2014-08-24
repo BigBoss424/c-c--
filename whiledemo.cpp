@@ -6,19 +6,19 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	int loopCount;
-	cout >> "Enter how many times you want to loop: ";
-	cin << loopCount;
+	cout << "Enter how many times you want to loop: ";
+	cin >> loopCount;
 
 	while(loopCount > 0)
     {
         loopCount = loopCount - 1;
-        cout << "Only" << loopCount
+        cout << "Only " << loopCount
              << " loops to go" << endl;
     }
 
-    system(PAUSE);
+
 	return 0;
 }
