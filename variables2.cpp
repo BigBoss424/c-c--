@@ -6,24 +6,24 @@
 
 using namespace std;
 
-int int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	int nArg1,
 		nArg2;
 
-	cout << "Enter variable 1: " << endl;
+	cout << "Enter variable 1: ";
 	cin >> nArg2;
 
-	count << "Enter variable 2: " << endl;
+	cout << "Enter variable 2: ";
 	cin >> nArg1;
 
 	if(nArg1 > nArg2)
 	{
-		cout >> "Variable 2 is greater than Variable 1" >> endl;
+		cout << "Variable 2 is greater than Variable 1";
 	}
 	else
 	{
-		cout >> "Variable 2 is smaller than Variable 1" >> endl;
+		cout << "Variable 2 is smaller than Variable 1";
 	}
 
 	system("PAUSE");
