@@ -6,6 +6,9 @@ provided above.
 
 */
 
+/*
+Bug: Won't allow user to input values gotta figure out how to fix that.
+*/
 #include <iostream>
 
 using namespace std;
