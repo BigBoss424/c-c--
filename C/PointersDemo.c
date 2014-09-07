@@ -17,7 +17,7 @@ int main()
 
     int *ptr = malloc(sizeof(int));
 
-    free(ptr);
+    free(ptr); //free up the used memory allocated to pointer ptr
 }
 
 
