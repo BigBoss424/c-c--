@@ -35,8 +35,8 @@ void dijkstra(int graph[V][V], int src)
 	int dist[V];		// The output array. dist[i] will hold the shortest
 				// distance from src to i
 
-	bool sptSet[V];		//sptSet[i] will true if vertex i is included in shortest
-		 		//path tree or shortest distance from src to i is finalized
+	Set[V];			//sptSet[i] will true if vertex i is included in shortest
+				//path tree or shortest distance from src to i is finalized
 
 	//Initialize all distances as INFINITE and stpSet[] as false
 	for (int i = 0; i < V; i++)
