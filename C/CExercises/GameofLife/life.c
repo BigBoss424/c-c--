@@ -47,3 +47,19 @@ void main(void)
 			printf("Do you wish to continue viewing the new generations");
 	} while (UserSaysYes());
 }
+
+int NeighborCount(Grid map, int row, int col)
+{
+	int i;
+	int j;
+	int count = 0;
+	for (i = row -1; i <= row + 1; i++)
+		for (j = col-1; j <= col + 1; j++)
+			if(map[i][j] == ALIVE)
+					count++;
+		if (map[row][col] == ALIVE)
+			count--;
+			return count;
+}
+
+void Initialize(Grid map)
