@@ -57,8 +57,20 @@ void cambiar(l*&l1, l*&12, l*&13, int s, int&n, string&sg)
 			cout<<"Pieza"<<s<<". Cambio de l3 a l2\n";
 			sprintf(Result, "%d", s);
 			ss << Result;
-			ss >> f
+			ss >> f;
+			sg+="Pieza " +f+". Cambio de l3 a l2\n";
+			display(l1,sg);display(l2, sg);display(l3,sg);sg+="\n";}
+		else{l1=add(l1,l2->v);l2->next;
+			cout<<"Pieza "<<s<<". Cambio de l2 a l1\n";
+			sprintf(Result, "%d", s);
+			ss << Result;
+			ss >> f;
+			sg+="Pieza "+f+". Cambio de l2 a l1\n\n";
+			display(l1, sg);display(l2,sg);display(l3,sg);sg+="\n";}}
+		}
+	else{if(s%2==0){int i=(n+3)%3;
 
+		}
 		}
 		}
 	}
