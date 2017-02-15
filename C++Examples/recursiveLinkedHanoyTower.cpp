@@ -29,3 +29,13 @@ void display(l*l,string&sg)
 		display(l->next, sg);
 	}
 }
+
+l* add(l*list, int s)
+{
+	l*ob=new l; 
+	ob->v=s;
+	ob->next=list;
+	return ob;
+}
+
+void cambiar
