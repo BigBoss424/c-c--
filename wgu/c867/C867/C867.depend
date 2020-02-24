@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1582573986 source:/home/otacon424/Documents/github/c-c--/wgu/c867/C867/salary.cpp
+	<iostream>
+
+1582584122 source:/home/otacon424/Documents/github/c-c--/wgu/c867/C867/PrintingText.cpp
+	<iostream>
+
