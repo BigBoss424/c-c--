@@ -1,9 +1,10 @@
 #pragma once
+#ifndef SOFTWARESTUDENT_H
+#define SOFTWARESTUDENT_H
 
-#include <string>
-#include "degree.h"
 #include "student.h"
+#include "degree.h"
 
-class softwareStudent : public Student {
-    const Degree DEGREE_TYPE = SOFTWARE;
-}
+class SoftwareStudent : public
+
+#endif // !SOFTWARESTUDENT_H
