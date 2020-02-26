@@ -4,9 +4,9 @@
 #include "student.h"
 #include "degree.h"
 #include <array>
-#include <string>
+//#include <string>
 
-class Roster{
+cl ass Roster{
 private:
     Student* classRosterArray[5];
 

@@ -1,5 +1,4 @@
-//#pragma once
-
+#pragma once
 #ifndef NETWORKINGSTUDENT_H
 #define NETWORKINGSTUDENT_H
 
@@ -7,11 +6,11 @@
 #include "degree.h"
 
 class NetworkStudent : public Student{
-    public: 
+    public:
 
     NetworkStudent();
 
-    NetworkStudent{
+    NetworkStudent(
         string sID,
         string sName,
         string sLast,
@@ -19,7 +18,7 @@ class NetworkStudent : public Student{
         int sAge,
         int* sDays,
         Degree sDeg
-    };
+    );
 
     Degree getDegree() override;
 
@@ -30,6 +29,6 @@ class NetworkStudent : public Student{
     private:
 
 
-};
+ };
 
 #endif // !NETWORKINGSTUDENT_H
