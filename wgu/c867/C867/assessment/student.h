@@ -19,7 +19,7 @@ class Student {
         string lastName;
         string emailAddress;
         int studentAge;
-        int daysArray(daysArraySize);
+        int daysArray[daysArraySize];
         Degree degree;
 
     public:
@@ -40,7 +40,7 @@ class Student {
         //Setters
         void setFirstName(string firstName);
         void setLastName(string lastName);
-        void setEmailAddress();
+        void setEmailAddress(string emailAddress);
         void setAge(int age);
         void setStudentID(string studentID);
         void setNumDays(int day0, int day1, int day2);
