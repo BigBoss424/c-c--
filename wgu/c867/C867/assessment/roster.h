@@ -1,29 +1,27 @@
+#pragma once
 #ifndef ROSTER_H
 #define ROSTER_H
 
 #include "student.h"
 #include "degree.h"
 #include <array>
-//#include <string>
 
-cl ass Roster{
-private:
-    Student* classRosterArray[5];
+class Roster {
+	private:
+		Student* classRosterArray[5];
 
-public:
-    Roster();
+	public:
+		Roster();
 
-    int increment = 0;
+		int incrementIndex = 0;
+		
+		void add(string studID, string fiName,string laName, string emAddr, int a, int day0, int day1, int day2, Degree);
+		void printAll();
+		void printInvalidEmails();
+		void printAverageDaysInCourse(string);
+		void printByDegreeProgram(string degree);
+		void remove(string studentID);
 
-    void add(string studID, string fName, string emAddr, int a, int day0, int day1, int day2, Degree);
-    void printAll();
-    void printInvalidEmails();
-    void printAverageDaysInCourse(string);
-    void printByDegreeProgram(string degree);
-    void remove(string studentID);
-
-    virtual ~Roster();
-
+		virtual ~Roster();
 };
-
 #endif // !ROSTER_H

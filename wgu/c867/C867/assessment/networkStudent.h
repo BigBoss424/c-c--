@@ -5,30 +5,22 @@
 #include "student.h"
 #include "degree.h"
 
-class NetworkStudent : public Student{
-    public:
+class NetworkStudent : public Student {
+public:
+	NetworkStudent();
 
-    NetworkStudent();
+	NetworkStudent(string sID, string sName, string sLast, string sEmail, 
+						int sAge, int* sDays, Degree sDeg );
 
-    NetworkStudent(
-        string sID,
-        string sName,
-        string sLast,
-        string sEmail,
-        int sAge,
-        int* sDays,
-        Degree sDeg
-    );
+	Degree getDegree() override;
 
-    Degree getDegree() override;
+	void print() override;
 
-    void print() override;
+	~NetworkStudent();
 
-    ~NetworkStudent();
-
-    private:
+private:
 
 
- };
-
+};
 #endif // !NETWORKINGSTUDENT_H
+

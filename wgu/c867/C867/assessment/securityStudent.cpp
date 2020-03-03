@@ -6,25 +6,28 @@
 #include "student.h"
 #include "degree.h"
 
-SecurityStudent::SecurityStudent():Student(){
+using namespace std;
+
+SecurityStudent::SecurityStudent():Student() {
 	degree = Degree::SECURITY;
 }
 
-SecurityStudent::SecurityStudent(string sID, string sName, string sLast, string sEmail,
-							   int sAge, int* sDays, Degree sDeg): 
-							   Student::Student(sID, sName, sLast, sEmail, sAge, sDays){
+SecurityStudent::SecurityStudent(string sID, string sName, string sLast,
+								 string sEmail, int sAge, int* sDays, Degree sDeg)
+								: Student::Student(sID, sName, sLast, sEmail, sAge, sDays) 
+{
 	degree = Degree::SECURITY;
 }
 
-Degree SecurityStudent::getDegree(){
+Degree SecurityStudent::getDegree() {
 	return degree = Degree::SECURITY;
 }
 
-void SecurityStudent::print(){
+void SecurityStudent::print() {
 	this->Student::print();
 	cout << "Security" << endl;
 }
 
-SecurityStudent::~SecurityStudent(){
+SecurityStudent::~SecurityStudent() {
 	Student::~Student();
 }

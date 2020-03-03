@@ -5,24 +5,18 @@
 #include "student.h"
 #include "degree.h"
 
-class SoftwareStudent : public Student {
+class SoftwareStudent : public Student
+{
 public:
-    SoftwareStudent();
+	SoftwareStudent();
 
-    SoftwareStudent(
-        string sID,
-        string sName,
-        string sLast,
-        string sEmail,
-        int sAge,
-        int* sDays,
-        Degree sDeg );
+	SoftwareStudent(string iD, string sName, string sLast, string sEmail,
+		int sAge, int* sDays, Degree sDeg);
 
-    Degree getDegree() override;
-
-    ~SoftwareStudent();
-
+	Degree getDegree() override;
+	void print() override;
+	~SoftwareStudent();
 private:
-};
 
+};
 #endif // !SOFTWARESTUDENT_H

@@ -12,21 +12,21 @@ NetworkStudent::NetworkStudent():Student(){
 	degree = Degree::NETWORKING;
 }
 
-NetworkStudent::NetworkStudent(string sID, string sName, string sLast, string sEmail,
-							   int sAge, int* sDays, Degree sDeg): 
-							   Student::Student(sID, sName, sLast, sEmail, sAge, sDays){
-degree = Degree::NETWORKING;
+NetworkStudent::NetworkStudent(string sID, string sName, string sLast, string sEmail, int sAge, int* sDays, Degree sDeg):
+								Student::Student(sID, sName, sLast, sEmail, sAge, sDays)
+{
+	degree = Degree::NETWORKING;
 }
 
-Degree NetworkStudent::getDegree(){
+Degree NetworkStudent::getDegree() {
 	return degree = Degree::NETWORKING;
 }
 
-void NetworkStudent::print(){
+void NetworkStudent::print() {
 	this->Student::print();
 	cout << "Networking" << endl;
 }
 
-NetworkStudent::~NetworkStudent(){
+NetworkStudent::~NetworkStudent() {
 	Student::~Student();
 }

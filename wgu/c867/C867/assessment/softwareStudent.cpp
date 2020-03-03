@@ -8,25 +8,25 @@
 
 using namespace std;
 
-SoftwareStudent::SoftwareStudent():Student(){
+SoftwareStudent::SoftwareStudent() :Student() {
 	degree = Degree::SOFTWARE;
 }
 
 SoftwareStudent::SoftwareStudent(string sID, string sName, string sLast, string sEmail,
-							   int sAge, int* sDays, Degree sDeg): 
-							   Student::Student(sID, sName, sLast, sEmail, sAge, sDays){
-degree = Degree::SOFTWARE;
+	int sAge, int* sDays, Degree sDeg) :
+	Student::Student(sID, sName, sLast, sEmail, sAge, sDays) {
+	degree = Degree::SOFTWARE;
 }
 
-Degree SoftwareStudent::getDegree(){
+Degree SoftwareStudent::getDegree() {
 	return degree = Degree::SOFTWARE;
 }
 
-void SoftwareStudent::print(){
+void SoftwareStudent::print() {
 	this->Student::print();
 	cout << "Software" << endl;
 }
 
-SoftwareStudent::~SoftwareStudent(){
+SoftwareStudent::~SoftwareStudent() {
 	Student::~Student();
 }
