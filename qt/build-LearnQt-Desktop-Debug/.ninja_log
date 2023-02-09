@@ -1,0 +1,22 @@
+# ninja log v5
+94609	102870	1671086830471468516	LearnQt	231ea6be34388fab
+3756	88842	1671086816471413649	CMakeFiles/LearnQt.dir/LearnQt_autogen/mocs_compilation.cpp.o	e501b6c73425c994
+3756	28758	1671086756387174080	CMakeFiles/LearnQt.dir/main.cpp.o	386d8d44acc6d32a
+16	3756	1671086731375072266	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/LearnQt_autogen/mocs_compilation.cpp	cf3927813c0a32c8
+16	3756	1671086731375072266	LearnQt_autogen/mocs_compilation.cpp	cf3927813c0a32c8
+3756	94609	1671086822238436292	CMakeFiles/LearnQt.dir/mainwindow.cpp.o	6336a43fdf5e9145
+16	3756	1671086731375072266	LearnQt_autogen/timestamp	cf3927813c0a32c8
+16	3756	1671086731375072266	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/LearnQt_autogen/timestamp	cf3927813c0a32c8
+438	2024	1671087764121668516	build.ninja	e2a758a46de044c
+51	213	1671087762706664041	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/CMakeFiles/cmake.verify_globs	f77543113bc3445c
+213	1645	1671087764121668516	build.ninja	e2a758a46de044c
+4	15	0	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/CMakeFiles/cmake.verify_globs	f77543113bc3445c
+3	18	0	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/CMakeFiles/cmake.verify_globs	f77543113bc3445c
+1	38	0	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/CMakeFiles/cmake.verify_globs	f77543113bc3445c
+42	122	1671088613439660865	LearnQt_autogen/timestamp	cf3927813c0a32c8
+42	122	1671088613439660865	LearnQt_autogen/mocs_compilation.cpp	cf3927813c0a32c8
+42	122	1671088613439660865	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/LearnQt_autogen/timestamp	cf3927813c0a32c8
+42	122	1671088613439660865	/home/ajones424/Documents/github/c-c--/qt/build-LearnQt-Desktop-Debug/LearnQt_autogen/mocs_compilation.cpp	cf3927813c0a32c8
+124	16076	1671088629392756541	CMakeFiles/LearnQt.dir/mainwindow.cpp.o	6336a43fdf5e9145
+123	16233	1671088629396756565	CMakeFiles/LearnQt.dir/main.cpp.o	386d8d44acc6d32a
+16233	18759	1671088632072772507	LearnQt	231ea6be34388fab

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1672477208 source:/home/ajones424/Documents/github/c-c--/C++Practice/calculator/LearningC++/src/finances.cpp
+	"finances.h"
+
+1672477208 /home/ajones424/Documents/github/c-c--/C++Practice/calculator/LearningC++/include/finances.h
+
+1672478469 source:/home/ajones424/Documents/github/c-c--/C++Practice/calculator/LearningC++/main.cpp
+	<iostream>
+	"IntRateCalculator.h"
+
+1672478743 /home/ajones424/Documents/github/c-c--/C++Practice/calculator/LearningC++/include/IntRateCalculator.h
+	<iostream>
+
+1672478472 source:/home/ajones424/Documents/github/c-c--/C++Practice/calculator/LearningC++/src/IntRateCalculator.cpp
+	"IntRateCalculator.h"
+
