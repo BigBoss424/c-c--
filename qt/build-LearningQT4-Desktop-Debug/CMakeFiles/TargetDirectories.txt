@@ -1,0 +1,9 @@
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/LearningQT4.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/install.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/install/local.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/LearningQT4_autogen_timestamp_deps.dir
+/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/CMakeFiles/LearningQT4_autogen.dir

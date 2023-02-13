@@ -1,0 +1,15 @@
+# ninja log v5
+29	1676	1676173360018521891	LearningQT4_autogen/timestamp	912ac4bdde3aacbc
+29	1676	1676173360018521891	LearningQT4_autogen/mocs_compilation.cpp	912ac4bdde3aacbc
+29	1676	1676173360018521891	/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/LearningQT4_autogen/timestamp	912ac4bdde3aacbc
+29	1676	1676173360018521891	/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/LearningQT4_autogen/mocs_compilation.cpp	912ac4bdde3aacbc
+1676	8137	1676173366500518416	CMakeFiles/LearningQT4.dir/LearningQT4_autogen/mocs_compilation.cpp.o	8d80abd406f9a4fa
+1676	8174	1676173366537518396	CMakeFiles/LearningQT4.dir/mainwindow.cpp.o	8ee264a795e4675d
+1676	8203	1676173366566518381	CMakeFiles/LearningQT4.dir/main.cpp.o	b0c2ae091e7f5b20
+8203	9559	1676173367919517676	LearningQT4	574193c7cc57bf26
+26	109	1676174022888735842	LearningQT4_autogen/timestamp	912ac4bdde3aacbc
+26	109	1676174022888735842	LearningQT4_autogen/mocs_compilation.cpp	912ac4bdde3aacbc
+26	109	1676174022888735842	/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/LearningQT4_autogen/timestamp	912ac4bdde3aacbc
+26	109	1676174022888735842	/home/ajones424/Documents/github/c-c--/qt/build-LearningQT4-Desktop-Debug/LearningQT4_autogen/mocs_compilation.cpp	912ac4bdde3aacbc
+111	3335	1676174026113738722	CMakeFiles/LearningQT4.dir/mainwindow.cpp.o	8ee264a795e4675d
+3335	4215	1676174026989739507	LearningQT4	574193c7cc57bf26
